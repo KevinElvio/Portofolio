@@ -1,0 +1,9 @@
+[phases.setup]
+engine = "nodejs_18"
+install = "npm ci --omit=dev"
+
+[phases.build]
+command = "npm run build"
+
+[phases.start]
+command = "npm start"
